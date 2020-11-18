@@ -20,7 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcd62a07-e11e-4e81-8cb8-3471743cf91b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.cpanel.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.cpanel.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/webroot/images/connecticut-electric.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/webroot/images/connecticut-electric.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/webroot/images/ctelectricrates_new.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/webroot/images/ctelectricrates_new.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/webroot/images/icon_14.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/webroot/images/icon_14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/webroot/images/icon_15.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/webroot/images/icon_15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/webroot/images/map/CA.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/webroot/images/map/CA.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/webroot/images/map/CT.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/webroot/images/map/CT.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/webroot/images/map/MD.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/webroot/images/map/MD.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/webroot/images/map/NJ.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/webroot/images/map/NJ.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/webroot/images/map/PA.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/webroot/images/map/PA.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/webroot/images/map_01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/webroot/images/map_01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/webroot/images/newjersey-electricgas.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/webroot/images/newjersey-electricgas.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/webroot/images/newjersey-electricgas_new.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/webroot/images/newjersey-electricgas_new.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/webroot/images/pennsylvania-electric.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/webroot/images/pennsylvania-electric.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/webroot/images/pennsylvaniaelectricity_new.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/webroot/images/pennsylvaniaelectricity_new.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/webroot/images/shd_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/webroot/images/shd_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/webroot/images/true_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/webroot/images/true_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/webroot/php.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/webroot/php.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/energy-deregulation-questions-answers.html" beforeDir="false" afterPath="$PROJECT_DIR$/energy-deregulation-questions-answers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suppliers.html" beforeDir="false" afterPath="$PROJECT_DIR$/suppliers.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +51,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kKY5Iyrbl8jI8WIKvfUUrDJDmJ" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -54,7 +74,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605450565150</updated>
-      <workItem from="1605450567164" duration="674000" />
+      <workItem from="1605450567164" duration="912000" />
+      <workItem from="1605724197629" duration="985000" />
     </task>
     <servers />
   </component>
@@ -71,6 +92,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="351" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605450787935">

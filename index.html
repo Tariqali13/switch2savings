@@ -18,40 +18,14 @@
 	<link rel="stylesheet" type="text/css" href="theme\FrontEnd\css\style.css">
 	<link rel="stylesheet" type="text/css" href="theme\FrontEnd\css\menu.css">
 	<link rel="stylesheet" type="text/css" href="theme\FrontEnd\css\royalslider.css">
-	<link rel="stylesheet" type="text/css" href="theme\FrontEnd\css\rs-minimal-white.css">
 	<link rel="stylesheet" type="text/css" href="theme\FrontEnd\css\skin.css">
 	<link rel="stylesheet" type="text/css" href="theme\FrontEnd\css\responsive.css">
-
-	<link rel="stylesheet" type="text/css" href="theme\FrontEnd\css\colorbox.css">
-
 	<script type="text/javascript" src="theme\FrontEnd\js\jquery-latest.js"></script>
-	<script type="text/javascript" src="theme\FrontEnd\js\html5.js"></script>
-	<script type="text/javascript" src="theme\FrontEnd\js\menu.js"></script>
 	<script type="text/javascript" src="theme\FrontEnd\js\jquery.royalslider.min.js"></script>
 	<script type="text/javascript" src="theme\FrontEnd\js\jquery.jcarousel.min.js"></script>
-
-	<script type="text/javascript" src="theme\FrontEnd\js\colorbox\jquery.colorbox.js"></script>
-
 <meta name="robots" content="index, follow">
 
 <script type="text/javascript">
-$(document).ready(function(e) {
-    /*$('input[type=text]').each(function() {
-        var placeholder = $(this).attr('placeholder');
-        $(this).removeAttr('placeholder');
-        $(this).val(placeholder);
-        $(this).focus(function(){
-            if($(this).val() === placeholder){
-                $(this).val("");
-            }
-        });
-        $(this).blur(function(){
-            if($(this).val() === ""){
-                $(this).val(placeholder);
-            }
-        });
-    });*/
-});
 
 jQuery(document).ready(function($) {
     $('#full-width-slider').royalSlider({
@@ -98,48 +72,11 @@ jQuery(document).ready(function() {
 
 });
 </script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-29044040-1', 'maketheswitchusa.com');
-  ga('send', 'pageview');
-
-</script>
-
-
-    <!--  include tracking  -->
-    <!-- Facebook Pixel Code added 01/13/16 by JA-->
-<script>
-    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-            document,'script','//connect.facebook.net/en_US/fbevents.js');
-
-    fbq('init', '207725609571109');
-    fbq('track', "PageView");</script>
 <noscript>
     <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=207725609571109&ev=PageView&noscript=1">
 </noscript>
-<!-- End Facebook Pixel Code -->
-
-<!-- Bing Analytics -->
-<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5011483"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
-
 <!-- Hotjar Tracking Code for https://www.maketheswitchusa.com/ -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:457070,hjsv:5};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-</script></head>
+</head>
 <body>
 <div id="bdBg">
   <div id="innerBg">
@@ -158,178 +95,6 @@ jQuery(document).ready(function() {
 <!--            <a class="icon" href="http://www.facebook.com/maketheswitchusa" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>-->
 <!--            <a class="icon" href="blog\index.html" target="_blank" title="Feed"><i class="fa fa-rss"></i></a></p>-->
     </div>
-
-
-	<script type="text/javascript" src="theme\FrontEnd\js\jquery.validate.js"></script>
-	<script type="text/javascript" src="theme\FrontEnd\js\additional-methods.js"></script>
-<script language="javascript">
-    $(function(){
-        var loadZoneZipCodeInput = $("#EnergyProviderPlanLoadZoneZipCode");
-        loadZoneZipCodeInput.hide();
-        $.validator.addMethod("loadZoneZipCode",function(value) {
-            var EnergyProviderPlanUtilityProviderId = $("#EnergyProviderPlanUtilityProviderId");
-            if(EnergyProviderPlanUtilityProviderId.val() == 51 || EnergyProviderPlanUtilityProviderId.val() == 52) {
-                if(loadZoneZipCodeInput.val()) {
-                    loadZoneZipCodeInput.removeClass('required');
-                    return true;
-                } else {
-                    loadZoneZipCodeInput.show().addClass('required');
-                    return false;
-                }
-
-            } else {
-                loadZoneZipCodeInput.hide().removeClass('required');
-                return true;
-            }
-        }, "Please add zipcode");
-        $.validator.addMethod("checkUtilityProviderId",function(value) {
-            if(value == 51 || value == 52) {
-                loadZoneZipCodeInput.show().addClass('required');
-            } else {
-                loadZoneZipCodeInput.hide().removeClass('required');
-            }
-            return true;
-        }, '');
-
-        $("#EnergyProviderPlanIndexForm").validate({
-            ignore: "",
-            rules: {
-                "data[EnergyProviderPlan][load_zone_zip_code]": {
-                    loadZoneZipCode : true,
-                    zipcodeUS: true
-                },
-                "data[EnergyProviderPlan][utility_provider_id]": {
-                    checkUtilityProviderId : true
-                },
-            },
-        });
-    });
-</script>
-
-
-<script type="text/javascript">
-    $(document).ready(function(){
-        $(".providerRadio1").change(function(){
-            //alert($(this).val());
-            changeImage1($(this).val());
-        });
-    });
-
-    function changeImage1(epid)
-    {
-        //alert('Changing Image');
-
-        dataString = 'image_id=energy_usage_image&energy_provider_id='+ epid;// +'&states='+ states;
-        jQuery.ajax({
-            type: "POST",
-            url: "https://www.maketheswitchusa.com/utility_providers/getImagePath",
-            data: dataString,
-            success: function(data) {
-                //$('#buyerList').html(data);
-                //alert('Load was performed.');
-                $('#img_where_find_this').attr("href",data);
-
-            }
-        });
-
-        return false;
-    }
-</script>
-
-<script type="text/javascript">
-	$(document).ready(function(){
-		$("#img_where_find_this").colorbox({photo: true});
-	});
-</script>
-
-<script language="javascript">
-$(document).ready(function  () {
-    var activeLink = '';
-    $('#menu ul li a').each(function(){
-            if($(this).attr('href') == '/'+activeLink)
-            {
-                $(this).parent().addClass('select');
-            }
-
-            if(activeLink != 'home')
-            {
-                $('#menu ul li').first().removeClass('select');
-            }
-    });
-    // call function on change
-    $('#EnergyProviderPlanChangeState').change(function(){
-        // Send
-        $.ajax({
-                url: 'https://www.maketheswitchusa.com/EnergyProviders/getHomeUitility',
-                dataType: 'json',
-                type: 'POST',
-                data: {state_id: $('#EnergyProviderPlanChangeState').val()},
-                success: function(data, textStatus, XMLHttpRequest)
-                {
-                    if (data.valid)
-                    {
-                        if(data.result_no_utility=='N' && data.result_state_utility=='5') //California - CA - 5
-						{
-							window.location = "https://www.maketheswitchusa.com/california-energy-deregulation";
-
-						}
-						else if(data.result_no_utility=='N' && data.result_state_utility=='15') //For Illinois - IL - 15
-						{
-							window.location = "https://www.maketheswitchusa.com/illinois-electricity-deregulation";
-
-						}
-						else if(data.result_no_utility=='N' && data.result_state_utility=='22') //Maryland - MD - 22
-						{
-							window.location = "https://www.maketheswitchusa.com/deregulation-maryland";
-
-						}
-						else if(data.result_no_utility=='N' && data.result_state_utility=='31') //New Hampshire - NH - 31
-						{
-							window.location = "https://www.maketheswitchusa.com/new-hampshire-energy-deregulation";
-
-						}
-						else
-						{
-							$('#EnergyProviderPlanUtilityProviderId').html(data.result_str);
-                            if($('#EnergyProviderPlanUtilityProviderId').val() == 51 || $('#EnergyProviderPlanUtilityProviderId').val() == 52) {
-                                $("#EnergyProviderPlanLoadZoneZipCode").show();
-                            } else {
-                                $("#EnergyProviderPlanLoadZoneZipCode").hide();
-                            }
-							$('#EnergyProviderPlanZonedFor').html(data.result_str_acc);
-						}
-                    }
-                },
-                error: function(XMLHttpRequest, textStatus, errorThrown)
-                {
-                    //alert('Server error');
-                    submitBt.enableBt();
-                }
-        });
-
-    });
-
-    $("#EnergyProviderPlanChangeState").change(function(){
-            //var actionUrl = '/'+$('#EnergyProviderPlanChangeState').val()+'/energy_provider_plans';
-            var actionUrl = '/energy-company-plans'+'/'+$('#EnergyProviderPlanChangeState').val();
-                $('#EnergyProviderPlanIndexForm').attr('action', actionUrl);
-    });
-
-    $("#EnergyProviderPlanUtilityProviderId").on('change',function () {
-        if($(this).val() == 51 || $(this).val() == 52) {
-            $("#EnergyProviderPlanLoadZoneZipCode").show();
-        } else {
-            $("#EnergyProviderPlanLoadZoneZipCode").hide();
-        }
-    })
-});
-
-</script>
-
-<style type="text/css">
-form#EnergyProviderPlanIndexForm label.error { font-size:14px; }
-</style>
-
 <div class="bannerShd">
     <div class="index-banner">
       <p>Welcome to Switch 2 Savings </p>
@@ -356,7 +121,7 @@ form#EnergyProviderPlanIndexForm label.error { font-size:14px; }
 <!--            </form>        </div>-->
 <!--    </div>-->
 </div>
-
+</div>
 
 <div class="clear"></div>
 </header>
@@ -544,18 +309,6 @@ Find out more information on deregulation in your state:</p>
                 	            </div>
     <div class="clear"></div>
 </footer>
-
-<!-- Google Code for Remarketing Tag -->
-<script type="text/javascript">
-/* <![CDATA[ */
-var google_conversion_id = 1013581864;
-var google_custom_params = window.google_tag_params;
-var google_remarketing_only = true;
-/* ]]> */
-</script>
-
-<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
-
 <noscript>
 <div style="display:inline;">
 <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1013581864/?value=0&guid=ON&script=0">
